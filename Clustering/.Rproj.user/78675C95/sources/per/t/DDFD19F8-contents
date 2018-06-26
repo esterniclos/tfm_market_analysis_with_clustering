@@ -1,0 +1,62 @@
+---
+title: "Análisis de mercado"
+author: "Área técnica automoción."
+date: "21 de mayo de 2018"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Variables del estudio
+
+El número de clusters a generar es `r k`.
+
+Los centroides para esta solución son:
+
+```{r medoids, echo=FALSE}
+kable(clara.res$medoids)
+```
+
+La segmentación requiere los siguientes mínimos y máximos en los parámetros técnicos.
+
+```{r mínimos, echo=FALSE}
+kable (minimos_y_maximos(df, clara.res))
+```
+
+## Distribución de los clusters por variables
+
+
+```{r ggplots, echo=FALSE}
+  graficas_clusters (df, clara.res)
+
+```
+
+## Formas y Siluetas
+
+```{r formas, echo=FALSE}
+dibujar_formas (df, clara.res)
+```
+
+Visualización de las particiones realizadas mediante Clara.
+
+
+```{r siluetas, echo=FALSE}
+dibujar_siluetas(sil, conjunto, k)
+```
+
+El valor medio es  `r media_ci`.
+
+El análisis de los resultados de clustering a través de siluetas, es un método de validación que permite visualizar la homogeneidad de los elementos del cluster, y la distancia media entre los elementos de distintos cluster.
+
+Para que un clustering se considere bueno, debe tener el mayor número de observaciones cercanas a 1. Aquellas observaciones que se acercan al 0, están en los límites entre un cluster y otro.
+
+Observaciones con un Si negativo, tienen una diferencia tan grande con los elementos de su cluster, que indica que sería más adecuado asociarlo a otro cluster.
+
+# Número de licitadores por segmento
+
+```{r licitadoresPorCluster, echo=FALSE}
+kable(dfLicitadoresPorCluster)
+```
+

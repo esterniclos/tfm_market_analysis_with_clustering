@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526639476580.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1228870056",
+    "id" : "71C88094",
+    "lastKnownWriteTime" : 1526640660,
+    "last_content_update" : 1526640660783,
+    "path" : "S:/Ester_documentos/cursos/2017/unir/06-TFM/04 - Desarrollo TFM/Datasources/src/limpieza_normalizacion_eea.r",
+    "project_path" : "src/limpieza_normalizacion_eea.r",
+    "properties" : {
+        "cursorPosition" : "277,2",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

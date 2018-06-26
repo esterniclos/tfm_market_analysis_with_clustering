@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1527598698312.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3339518381",
+    "id" : "DED73F07",
+    "lastKnownWriteTime" : 1527605180,
+    "last_content_update" : 1527605180173,
+    "path" : "S:/Ester_documentos/cursos/2017/unir/06-TFM/04 - Desarrollo TFM/Clustering/src/informes.r",
+    "project_path" : "src/informes.r",
+    "properties" : {
+        "cursorPosition" : "40,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

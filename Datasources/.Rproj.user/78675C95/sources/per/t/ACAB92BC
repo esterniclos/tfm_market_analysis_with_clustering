@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524828983954.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4083772984",
+    "id" : "ACAB92BC",
+    "lastKnownWriteTime" : 1526564644,
+    "last_content_update" : 1526564644718,
+    "path" : "S:/Ester_documentos/cursos/2017/unir/06-TFM/04 - Desarrollo TFM/Datasources/01-builddatasets.R",
+    "project_path" : "01-builddatasets.R",
+    "properties" : {
+        "cursorPosition" : "40,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
